@@ -1,0 +1,17 @@
+#Variables
+name = input('Your name: ')
+adj1 = input('Adjective: ')
+adj2 = input('Adjective: ')
+verb1 = input('Verb: ')
+adj3 = input('Adjective: ')
+
+
+#mad lib text
+madlib = f'Welcome, {name}! Practicing Python is so {adj1}! I am glad you decided to view my {adj2} repository. \
+If you want to {verb1}, you should take a look at my other projects. Have a {adj3} day!'
+
+#empty line for spacing
+print()
+
+#your completed mad lib!
+print(madlib)
