@@ -1,0 +1,60 @@
+# Rock paper scissors
+
+import random
+
+play_or_not = 'start'
+
+options = ['rock', 'paper', 'scissors']
+
+
+
+while play_or_not == 'start':
+
+    your_choice = input('Enter your choice of "rock", "paper", or "scissors" ')
+
+    program_choice = random.sample(options, 1)
+
+        
+    if your_choice == 'rock' and program_choice == ['scissors']:
+        print(f'Python chose {program_choice}.')
+        print('You win!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else. ')
+        
+    elif your_choice == 'rock' and program_choice == ['paper']:
+        print(f'Python chose {program_choice}.')
+        print('You lose!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else. ')
+    
+    elif your_choice == 'paper' and program_choice == ['rock']:
+        print(f'Python chose {program_choice}.')
+        print('You win!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else ')
+
+    elif your_choice == 'paper' and program_choice == ['scissors']:
+        print(f'Python chose {program_choice}.')
+        print('You lose!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else. ')
+
+    elif your_choice == 'scissors' and program_choice == ['paper']:
+        print(f'Python chose {program_choice}.')
+        print('You win!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else ')
+
+    elif your_choice == 'scissors' and program_choice == ['rock']:
+        print(f'Python chose {program_choice}.')
+        print('You lose!')
+        play_or_not = input('To play the game, type "start". To stop, type anything else ')
+        
+    else:
+        print(f'Python chose {program_choice}.')
+        print("It's a draw!")
+        play_or_not = input('To play the game, type "start". To stop, type anything else. ')
+
+        
+
+
+
+
+
+
+
