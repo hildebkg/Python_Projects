@@ -38,6 +38,3 @@ while play_or_not == 'start':
         print('Error. Please enter a valid choice.')
         play_or_not = input('To play the game, type "start". To stop, type anything else. ')
 
-        
-
-
