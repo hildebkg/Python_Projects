@@ -1,14 +1,10 @@
 # Rock paper scissors
-
-# numerous improvements were made- the number of lines used was decreased and the process by which the program chose "rock", "paper", or "scissors" was \
-simplified.
+# Nmerous improvements were made- the number of lines used was decreased and the process by which the program chose "rock", "paper", or "scissors" was simplified.
 
 
 import random
 
 play_or_not = 'start'
-
-
 
 while play_or_not == 'start':
 
