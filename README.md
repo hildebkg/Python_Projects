@@ -7,3 +7,4 @@ Projects created soley in Python! Projects so far include:
 4. [Law of Cosines calculator](https://github.com/hildebkg/Python_Projects/blob/main/Law_of_cosines_calculator.py)
 5. [Coin flip data collector](https://github.com/hildebkg/Python_Projects/blob/main/Coin_flip_data_collector.py)
 6. [Factorial calculator](https://github.com/hildebkg/Python_Projects/blob/main/Factorial_calculator.py)
+7. [Fibonacci sequence calculator](https://github.com/hildebkg/Python_Projects/blob/main/Factorial_calculator.py)
