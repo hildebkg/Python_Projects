@@ -8,3 +8,4 @@ Projects created soley in Python! Projects so far include:
 5. [Coin flip data collector](https://github.com/hildebkg/Python_Projects/blob/main/Coin_flip_data_collector.py)
 6. [Factorial calculator](https://github.com/hildebkg/Python_Projects/blob/main/Factorial_calculator.py)
 7. [Fibonacci sequence calculator](https://github.com/hildebkg/Python_Projects/blob/main/Factorial_calculator.py)
+8. [Analyze student data from a text file](https://github.com/hildebkg/Python_Projects/tree/main/Analyze_Student_Data_From_File)
